@@ -3163,7 +3163,7 @@ resolution of request to views would occur.
 
 [NOTE]
 ====
-If `ContentNegotiatingViewResolver`'s list of ViewResolvers is not configured
+If ``ContentNegotiatingViewResolver``'s list of ViewResolvers is not configured
 explicitly, it automatically uses any ViewResolvers defined in the application context.
 ====
 

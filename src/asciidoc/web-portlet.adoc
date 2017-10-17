@@ -283,7 +283,7 @@ INF/servlet/view` URL that is mapped to the `ViewRendererServlet`.
 The `ViewRendererServlet` is then able to call the `render` method on the `View` with
 the appropriate arguments.
 
-The actual URL for the `ViewRendererServlet` can be changed using `DispatcherPortlet`'s
+The actual URL for the `ViewRendererServlet` can be changed using ``DispatcherPortlet``'s
 `viewRendererUrl` configuration parameter.
 
 
@@ -1347,7 +1347,7 @@ The following code snippet from the PetPortal sample application shows the usage
 ----
 
 Parameters using this annotation are required by default, but you can specify that a
-parameter is optional by setting `@RequestParam`'s `required` attribute to `false`
+parameter is optional by setting ``@RequestParam``'s `required` attribute to `false`
 (e.g., `@RequestParam(name="id", required=false)`).
 
 
