@@ -289,6 +289,17 @@ public class MediaType extends MimeType implements Serializable {
 	public static final String MULTIPART_FORM_DATA_VALUE = "multipart/form-data";
 
 	/**
+	 * Public constant media type for {@code text/csv}.
+	 * @since 5.2
+	 */
+	public static final MediaType TEXT_CSV;
+
+	/**
+	 * A String equivalent of {@link MediaType#TEXT_CSV}.
+	 */
+	public static final String TEXT_CSV_VALUE = "text/csv";
+
+	/**
 	 * Public constant media type for {@code text/event-stream}.
 	 * @since 4.3.6
 	 * @see <a href="https://www.w3.org/TR/eventsource/">Server-Sent Events W3C recommendation</a>
@@ -367,6 +378,7 @@ public class MediaType extends MimeType implements Serializable {
 		IMAGE_JPEG = new MediaType("image", "jpeg");
 		IMAGE_PNG = new MediaType("image", "png");
 		MULTIPART_FORM_DATA = new MediaType("multipart", "form-data");
+		TEXT_CSV = new MediaType("text", "csv");
 		TEXT_EVENT_STREAM = new MediaType("text", "event-stream");
 		TEXT_HTML = new MediaType("text", "html");
 		TEXT_MARKDOWN = new MediaType("text", "markdown");
